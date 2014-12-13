@@ -21,8 +21,9 @@
   ],
   "main": "wrap-promise-cjs.js",
   "files": [
-    "wrap-promise-cjs.js",
-    "LICENSE"
+    "LICENSE",
+    "no-fallback.js",
+    "wrap-promise-cjs.js"
   ],
   "keywords": [
     "promise",
