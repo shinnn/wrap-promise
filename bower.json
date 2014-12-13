@@ -1,0 +1,35 @@
+{
+  "name": "wrap-promise",
+  "description": "Like new Promise(), but prevents implicit rejection",
+  "keywords": [
+    "promise",
+    "constructor",
+    "then",
+    "thenable",
+    "throw",
+    "error",
+    "wrapper",
+    "explicit"
+  ],
+  "main": "wrap-promise.js",
+  "homepage": "https://github.com/shinnn/wrap-promise",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/wrap-promise.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
