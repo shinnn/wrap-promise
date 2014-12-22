@@ -1,10 +1,10 @@
 # wrap-promise
 
-[![Build Status](https://travis-ci.org/shinnn/wrap-promise.svg?branch=master)](https://travis-ci.org/shinnn/wrap-promise)
+[![Build Status](https://img.shields.io/travis/shinnn/wrap-promise.svg?style=flat)](https://travis-ci.org/shinnn/wrap-promise)
 [![Build status](https://ci.appveyor.com/api/projects/status/hs2fbpxk34gbteub?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/wrap-promise)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/wrap-promise.svg)](https://coveralls.io/r/shinnn/wrap-promise)
-[![Dependency Status](https://david-dm.org/shinnn/wrap-promise.svg)](https://david-dm.org/shinnn/wrap-promise)
-[![devDependency Status](https://david-dm.org/shinnn/wrap-promise/dev-status.svg)](https://david-dm.org/shinnn/wrap-promise#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/wrap-promise.svg?style=flat)](https://coveralls.io/r/shinnn/wrap-promise)
+[![Dependency Status](https://david-dm.org/shinnn/wrap-promise.svg?style=flat)](https://david-dm.org/shinnn/wrap-promise)
+[![devDependency Status](https://david-dm.org/shinnn/wrap-promise/dev-status.svg?style=flat)](https://david-dm.org/shinnn/wrap-promise#info=devDependencies)
 
 Like `new Promise()`, but prevents implicit rejection
 
@@ -58,6 +58,9 @@ function onRejected() {
 ## Installation
 
 ### Package managers
+
+[![NPM version](https://img.shields.io/npm/v/wrap-promise.svg?style=flat)](https://www.npmjs.com/package/wrap-promise)
+[![Bower version](https://img.shields.io/bower/v/wrap-promise.svg?style=flat)](https://github.com/shinnn/wrap-promise/releases)
 
 #### [npm](https://www.npmjs.com/)
 
