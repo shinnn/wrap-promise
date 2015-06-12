@@ -91,9 +91,9 @@ Default: global `Promise` or [`require('es6-promise').Promise`](https://github.c
 
 The `Promise` constructor used in `wrapPromise` function.
 
-#### On CommonJS-based environment (e.g. [Node](http://nodejs.org/))
+#### On [CommonJS](http://www.commonjs.org/)-based environment (e.g. [Node](https://nodejs.org/))
 
-By default it uses the global `Promise` constructor if available, otherwise it [`require`](http://nodejs.org/api/globals.html#globals_require)s [es6-promise](https://github.com/jakearchibald/es6-promise) and use its `Promise` property.
+By default it uses the global `Promise` constructor if available, otherwise it [`require`](http://nodejs.org/api/globals.html#globals_require)s [es6-promise](https://github.com/jakearchibald/es6-promise) and use its [`Promise` property](https://github.com/jakearchibald/es6-promise#nodejs).
 
 If you don't need the fallback, use [`no-fallback.js`](https://github.com/shinnn/wrap-promise/blob/master/no-fallback.js) instead. (Useful for [Browserify](http://browserify.org/))
 
