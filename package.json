@@ -1,6 +1,6 @@
 {
   "name": "wrap-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like new Promise(), but prevents implicit rejection",
   "repository": "shinnn/wrap-promise",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -29,7 +29,7 @@
     "client-side"
   ],
   "dependencies": {
-    "es6-promise": "^2.2.0"
+    "es6-promise": "^2.3.0"
   },
   "devDependencies": {
     "@shinnn/eslintrc": "^1.0.0",
